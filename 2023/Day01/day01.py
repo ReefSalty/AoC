@@ -1,5 +1,5 @@
 total = 0
-with open('/workspaces/AoC/2023/Day 1/aoc1.txt') as f:
+with open('2023/Day01/input_text.txt') as f:
    for line in f:
     n =''.join(i for i in line if i.isdigit())
     first_digit = str(n[0])
